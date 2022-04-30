@@ -19,7 +19,6 @@ Pure server is one that forces all clients on the server to use content that mat
 
 * Finally move MinHook folder to Server Pure Bypass Project
 
-<br/>
 
 ## How to build Server Pure Bypass Project files?
 * First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [Server-Pure-Bypass.zip](https://github.com/Kruziikrel1/Server-Pure-Bypass/releases)
@@ -31,8 +30,6 @@ Pure server is one that forces all clients on the server to use content that mat
 * Change build configuration to Debug or Release | x86 and press Build button or press <kbd>CTRL+B</kbd> on your keyboard.
 
 * Check out bin folder include that.
-
-<br/>
 
 ## How to load into the game?
 * First download any [Dynamic-link library (DLL)](https://en.wikipedia.org/wiki/Dynamic-link_library) injector or use my [Open Source Injector](https://github.com/Kruziikrel1/Kruzinjector) and open.
