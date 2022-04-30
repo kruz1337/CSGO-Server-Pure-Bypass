@@ -19,6 +19,8 @@ Pure server is one that forces all clients on the server to use content that mat
 
 * Check out bin folder include that.
 
+<br/>
+
 ## How to load into the game?
 * First download any [Dynamic-link library (DLL)](https://en.wikipedia.org/wiki/Dynamic-link_library) injector or use my [Open Source Injector](https://github.com/Kruziikrel1/Kruzinjector) and open.
 
