@@ -53,7 +53,7 @@
     <ClCompile>
       <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>MinHook\hde;MinHook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>MinHook\hde;MinHook\include;MinHook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <SDLCheck>true</SDLCheck>
       <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
@@ -72,7 +72,7 @@
       <PreprocessorDefinitions>_CRT_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>MinHook\hde;MinHook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>MinHook\hde;MinHook\include;MinHook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -102,10 +102,10 @@
     <ClInclude Include="MinHook\hde\pstdint.h" />
     <ClInclude Include="MinHook\hde\table32.h" />
     <ClInclude Include="MinHook\hde\table64.h" />
-    <ClInclude Include="MinHook\hook.h" />
-    <ClInclude Include="MinHook\trampoline.h" />
+    <ClInclude Include="MinHook\include\MinHook.h" />
     <ClInclude Include="Includes.h" />
     <ClInclude Include="Interfaces.h" />
+    <ClInclude Include="MinHook\trampoline.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

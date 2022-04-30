@@ -1,6 +1,6 @@
 #include <iostream>
 #include <intrin.h>
-#include <hook.h>
+#include <MinHook.h>
 
 #include "Hooks.h"
 #include "MinHook.h"

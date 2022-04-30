@@ -1,6 +1,6 @@
 #include "Includes.h"
 #include "MinHook.h"
-#include "hook.h"
+#include <MinHook.h>
 
 static auto calculateVmtLength(uintptr_t* vmt) noexcept
 {

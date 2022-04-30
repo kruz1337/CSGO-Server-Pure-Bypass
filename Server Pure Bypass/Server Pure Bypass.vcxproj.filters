@@ -16,10 +16,13 @@
       <UniqueIdentifier>{a520ea52-82ab-42bb-af3e-9b2272ecca67}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\MinHook">
-      <UniqueIdentifier>{d24d6732-4293-430d-bd5b-d4fc894d5a36}</UniqueIdentifier>
+      <UniqueIdentifier>{467e80b5-f95a-40b7-9fc3-ebb254336079}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\MinHook\hde">
-      <UniqueIdentifier>{f1fb6dae-458c-4e48-9512-a8a484874731}</UniqueIdentifier>
+      <UniqueIdentifier>{6ea9f638-5a55-4799-8813-e001ad2651f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MinHook\include">
+      <UniqueIdentifier>{8132c7c1-a611-4f7a-8134-a48bd7c75543}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -32,14 +35,8 @@
     <ClCompile Include="Hooks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MinHook\hook.c">
-      <Filter>Header Files\MinHook</Filter>
-    </ClCompile>
-    <ClCompile Include="MinHook\trampoline.c">
-      <Filter>Header Files\MinHook</Filter>
-    </ClCompile>
-    <ClCompile Include="MinHook\buffer.c">
-      <Filter>Header Files\MinHook</Filter>
+    <ClCompile Include="MinHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
     </ClCompile>
     <ClCompile Include="MinHook\hde\hde64.c">
       <Filter>Header Files\MinHook\hde</Filter>
@@ -47,8 +44,14 @@
     <ClCompile Include="MinHook\hde\hde32.c">
       <Filter>Header Files\MinHook\hde</Filter>
     </ClCompile>
-    <ClCompile Include="MinHook.cpp">
-      <Filter>Source Files\Hooks</Filter>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>Header Files\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>Header Files\MinHook</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,13 +64,13 @@
     <ClInclude Include="Hooks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MinHook\trampoline.h">
-      <Filter>Header Files\MinHook</Filter>
-    </ClInclude>
-    <ClInclude Include="MinHook\hook.h">
-      <Filter>Header Files\MinHook</Filter>
+    <ClInclude Include="MinHook.h">
+      <Filter>Header Files\Hooks</Filter>
     </ClInclude>
     <ClInclude Include="MinHook\buffer.h">
+      <Filter>Header Files\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
       <Filter>Header Files\MinHook</Filter>
     </ClInclude>
     <ClInclude Include="MinHook\hde\hde64.h">
@@ -79,14 +82,14 @@
     <ClInclude Include="MinHook\hde\pstdint.h">
       <Filter>Header Files\MinHook\hde</Filter>
     </ClInclude>
-    <ClInclude Include="MinHook\hde\table32.h">
-      <Filter>Header Files\MinHook\hde</Filter>
-    </ClInclude>
     <ClInclude Include="MinHook\hde\table64.h">
       <Filter>Header Files\MinHook\hde</Filter>
     </ClInclude>
-    <ClInclude Include="MinHook.h">
-      <Filter>Header Files\Hooks</Filter>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>Header Files\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>Header Files\MinHook\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
