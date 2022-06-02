@@ -6,7 +6,7 @@ This repository has a Server Pure Bypass with MinHook for Counter-Strike: Global
 ## What is Server Pure?
 Pure server is one that forces all clients on the server to use content that matches what is on the server.
 
-![](https://github.com/Kruziikrel1/Server-Pure-Bypass/blob/main/thumbnail.png)
+![](https://github.com/kruz1337/Server-Pure-Bypass/blob/main/thumbnail.png)
 
 ## How to setup MinHook files?
 * First go MinHook submodule folder then download MinHook files on project page or clone project repository from GitBash or Github Desktop.
@@ -21,7 +21,7 @@ Pure server is one that forces all clients on the server to use content that mat
 
 
 ## How to build Server Pure Bypass Project files?
-* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [Server-Pure-Bypass.zip](https://github.com/Kruziikrel1/Server-Pure-Bypass/releases)
+* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [Server-Pure-Bypass.zip](https://github.com/kruz1337/Server-Pure-Bypass/releases)
 
 * If you download project files with manual method you need extract zip file.
 
@@ -32,7 +32,7 @@ Pure server is one that forces all clients on the server to use content that mat
 * Check out bin folder include that.
 
 ## How to load into the game?
-* First download any [Dynamic-link library (DLL)](https://en.wikipedia.org/wiki/Dynamic-link_library) injector or use my [Open Source Injector](https://github.com/Kruziikrel1/Kruzinjector) and open.
+* First download any [Dynamic-link library (DLL)](https://en.wikipedia.org/wiki/Dynamic-link_library) injector or use my [Open Source Injector](https://github.com/kruz1337/Kruzinjector) and open.
 
 * Then select builded [Dynamic-link library (DLL)](https://en.wikipedia.org/wiki/Dynamic-link_library) file and Inject to csgo.exe
 
