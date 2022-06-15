@@ -6,7 +6,7 @@ This repository has a Server Pure Bypass with MinHook for Counter-Strike: Global
 ## What is Server Pure?
 Pure server is one that forces all clients on the server to use content that matches what is on the server.
 
-![](https://github.com/kruz1337/Server-Pure-Bypass/blob/main/thumbnail.png)
+![](https://raw.githubusercontent.com/kruz1337/CSGO-Server-Pure-Bypass/main/thumbnail.png)
 
 ## How to setup MinHook files?
 * First go MinHook submodule folder then download MinHook files on project page or clone project repository from GitBash or Github Desktop.
